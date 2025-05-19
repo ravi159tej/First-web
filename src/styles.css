@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid');
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;  
+}
+
+a{
+    text-decoration: none;
+    padding: 0,10px;
+    padding-right: 2%;
+    color: rgb(48, 48, 48);
+}

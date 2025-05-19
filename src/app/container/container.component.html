@@ -1,0 +1,21 @@
+<div class="ekart--product--container">
+    <!-- <img [src]="product.imageUrl" width="220" height="250">
+    <p>Name: {{ product.name }}</p>
+    <p>Price: {{ '$'+product.Price }}</p>
+    <p>color: {{ product.color }}</p>
+    <p>Discounted Price: {{ getDiscountedPrice()}}</p>
+    <p>{{product.stock >0? 'Only ' + product.stock + ' items left':'Out of stock'}}</p>
+    <button (click)="decrementCartValue()">-</button>
+    <span>{{addToCart}}</span>
+    <button (click)="incrementCartValue()">+</button> -->
+
+    <!-- <button [disabled]="!(product.stock>0)">Buy Now</button> -->
+    <!-- <input type="text"> -->
+     <app-search (searchTextChanged)="setSearchText($event)"></app-search>
+ 
+     <!-- <div *ngFor="let item of listOfString">
+        <p>current element of array is : {{item}}</p>
+     </div> -->
+     
+     <product-list [searchText]="searchText"></product-list>
+</div>
